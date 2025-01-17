@@ -26,7 +26,7 @@ Anlayse = Task (
 Advise = Task (
                     description = "Make a recommendation about investing in a stock, based on analysis provided",
                     expected_output = "Recommendation (Buy / No Buy) of a stock, with reasons clearly mentioned",    
-                    agent = analyst,                    
+                    agent = fin_expert,                    
                     context = [Anlayse],
                     output_file = 'Recommendation.txt'
                 )
